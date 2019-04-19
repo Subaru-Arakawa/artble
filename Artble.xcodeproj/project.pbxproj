@@ -19,6 +19,7 @@
 		492F0F7C226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 492F0F7A226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld */; };
 		492F0F81226950BF00C6C575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F7F226950BF00C6C575 /* LaunchScreen.storyboard */; };
 		492F0F872269513700C6C575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F622269506000C6C575 /* Assets.xcassets */; };
+		492F0F89226953E800C6C575 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F88226953E800C6C575 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		492F0F7B226950BF00C6C575 /* ArtbleAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtbleAdmin.xcdatamodel; sourceTree = "<group>"; };
 		492F0F80226950BF00C6C575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492F0F82226950BF00C6C575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492F0F88226953E800C6C575 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				492F0F582269505E00C6C575 /* AppDelegate.swift */,
 				492F0F5A2269505E00C6C575 /* ViewController.swift */,
 				492F0F5C2269505E00C6C575 /* Main.storyboard */,
+				492F0F88226953E800C6C575 /* LoginStoryboard.storyboard */,
 				492F0F642269506000C6C575 /* LaunchScreen.storyboard */,
 				492F0F672269506000C6C575 /* Info.plist */,
 				492F0F5F2269505E00C6C575 /* Artble.xcdatamodeld */,
@@ -192,6 +195,7 @@
 				492F0F662269506000C6C575 /* LaunchScreen.storyboard in Resources */,
 				492F0F632269506000C6C575 /* Assets.xcassets in Resources */,
 				492F0F5E2269505E00C6C575 /* Main.storyboard in Resources */,
+				492F0F89226953E800C6C575 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
