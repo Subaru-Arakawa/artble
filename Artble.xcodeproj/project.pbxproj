@@ -13,6 +13,12 @@
 		492F0F612269505E00C6C575 /* Artble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 492F0F5F2269505E00C6C575 /* Artble.xcdatamodeld */; };
 		492F0F632269506000C6C575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F622269506000C6C575 /* Assets.xcassets */; };
 		492F0F662269506000C6C575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F642269506000C6C575 /* LaunchScreen.storyboard */; };
+		492F0F74226950BF00C6C575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F0F73226950BF00C6C575 /* AppDelegate.swift */; };
+		492F0F76226950BF00C6C575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F0F75226950BF00C6C575 /* ViewController.swift */; };
+		492F0F79226950BF00C6C575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F77226950BF00C6C575 /* Main.storyboard */; };
+		492F0F7C226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 492F0F7A226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld */; };
+		492F0F81226950BF00C6C575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F7F226950BF00C6C575 /* LaunchScreen.storyboard */; };
+		492F0F872269513700C6C575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492F0F622269506000C6C575 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		492F0F622269506000C6C575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492F0F652269506000C6C575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492F0F672269506000C6C575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492F0F71226950BF00C6C575 /* ArtbleAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtbleAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492F0F73226950BF00C6C575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492F0F75226950BF00C6C575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492F0F78226950BF00C6C575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492F0F7B226950BF00C6C575 /* ArtbleAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtbleAdmin.xcdatamodel; sourceTree = "<group>"; };
+		492F0F80226950BF00C6C575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492F0F82226950BF00C6C575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		492F0F522269505E00C6C575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492F0F6E226950BF00C6C575 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		492F0F4C2269505E00C6C575 = {
 			isa = PBXGroup;
 			children = (
+				492F0F862269510400C6C575 /* Share */,
 				492F0F572269505E00C6C575 /* Artble */,
+				492F0F72226950BF00C6C575 /* ArtbleAdmin */,
 				492F0F562269505E00C6C575 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				492F0F552269505E00C6C575 /* Artble.app */,
+				492F0F71226950BF00C6C575 /* ArtbleAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +82,32 @@
 				492F0F582269505E00C6C575 /* AppDelegate.swift */,
 				492F0F5A2269505E00C6C575 /* ViewController.swift */,
 				492F0F5C2269505E00C6C575 /* Main.storyboard */,
-				492F0F622269506000C6C575 /* Assets.xcassets */,
 				492F0F642269506000C6C575 /* LaunchScreen.storyboard */,
 				492F0F672269506000C6C575 /* Info.plist */,
 				492F0F5F2269505E00C6C575 /* Artble.xcdatamodeld */,
 			);
 			path = Artble;
+			sourceTree = "<group>";
+		};
+		492F0F72226950BF00C6C575 /* ArtbleAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				492F0F73226950BF00C6C575 /* AppDelegate.swift */,
+				492F0F75226950BF00C6C575 /* ViewController.swift */,
+				492F0F77226950BF00C6C575 /* Main.storyboard */,
+				492F0F7F226950BF00C6C575 /* LaunchScreen.storyboard */,
+				492F0F82226950BF00C6C575 /* Info.plist */,
+				492F0F7A226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld */,
+			);
+			path = ArtbleAdmin;
+			sourceTree = "<group>";
+		};
+		492F0F862269510400C6C575 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				492F0F622269506000C6C575 /* Assets.xcassets */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = 492F0F552269505E00C6C575 /* Artble.app */;
 			productType = "com.apple.product-type.application";
 		};
+		492F0F70226950BF00C6C575 /* ArtbleAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492F0F83226950BF00C6C575 /* Build configuration list for PBXNativeTarget "ArtbleAdmin" */;
+			buildPhases = (
+				492F0F6D226950BF00C6C575 /* Sources */,
+				492F0F6E226950BF00C6C575 /* Frameworks */,
+				492F0F6F226950BF00C6C575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtbleAdmin;
+			productName = ArtbleAdmin;
+			productReference = 492F0F71226950BF00C6C575 /* ArtbleAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,9 @@
 				ORGANIZATIONNAME = 1;
 				TargetAttributes = {
 					492F0F542269505E00C6C575 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					492F0F70226950BF00C6C575 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -116,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				492F0F542269505E00C6C575 /* Artble */,
+				492F0F70226950BF00C6C575 /* ArtbleAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		492F0F6F226950BF00C6C575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F0F81226950BF00C6C575 /* LaunchScreen.storyboard in Resources */,
+				492F0F872269513700C6C575 /* Assets.xcassets in Resources */,
+				492F0F79226950BF00C6C575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +215,16 @@
 				492F0F5B2269505E00C6C575 /* ViewController.swift in Sources */,
 				492F0F612269505E00C6C575 /* Artble.xcdatamodeld in Sources */,
 				492F0F592269505E00C6C575 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492F0F6D226950BF00C6C575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F0F7C226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld in Sources */,
+				492F0F76226950BF00C6C575 /* ViewController.swift in Sources */,
+				492F0F74226950BF00C6C575 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +243,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				492F0F652269506000C6C575 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		492F0F77226950BF00C6C575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492F0F78226950BF00C6C575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492F0F7F226950BF00C6C575 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492F0F80226950BF00C6C575 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,6 +418,42 @@
 			};
 			name = Release;
 		};
+		492F0F84226950BF00C6C575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W48WYJ4T35;
+				INFOPLIST_FILE = ArtbleAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takeparts.ArtbleAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		492F0F85226950BF00C6C575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W48WYJ4T35;
+				INFOPLIST_FILE = ArtbleAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takeparts.ArtbleAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +475,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		492F0F83226950BF00C6C575 /* Build configuration list for PBXNativeTarget "ArtbleAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492F0F84226950BF00C6C575 /* Debug */,
+				492F0F85226950BF00C6C575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -349,6 +494,16 @@
 			);
 			currentVersion = 492F0F602269505E00C6C575 /* Artble.xcdatamodel */;
 			path = Artble.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		492F0F7A226950BF00C6C575 /* ArtbleAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				492F0F7B226950BF00C6C575 /* ArtbleAdmin.xcdatamodel */,
+			);
+			currentVersion = 492F0F7B226950BF00C6C575 /* ArtbleAdmin.xcdatamodel */;
+			path = ArtbleAdmin.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
